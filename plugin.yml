@@ -1,0 +1,15 @@
+name: VitalsChat
+author: stevenmlittle
+version: 1.0.0
+main: steven.vChat.Main
+description: All chat modifications.
+
+commands:
+ chatsymbol:
+  usage: /<command>
+  description: list symbols
+  
+permissions:
+ chatsymbol.v:
+  description: allows player to use chat symbols
+  default: op

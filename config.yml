@@ -1,0 +1,10 @@
+# Modules are all on for default
+
+chatsymbols: true   # Allows unicodes to be used /chatsymbol so see some basic ones
+
+chatformat: true   # Chat prefix and formating
+
+Sidebar: true
+
+# The following string is for when a player does not have permissions to do something
+no_perms_cmd: 'You do not have permission to run this command.'
