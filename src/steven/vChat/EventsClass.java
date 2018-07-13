@@ -121,7 +121,7 @@ public class EventsClass implements Listener {
 			return tag;
 		}
 		else if (player.hasPermission("veteran.v")) {
-			tag = (ChatColor.YELLOW + "[" + ChatColor.BLUE + unicize(":272f:") + ChatColor.YELLOW + "] ");
+			tag = (ChatColor.DARK_GRAY + "[" + ChatColor.BLUE + unicize(":272f:") + ChatColor.DARK_GRAY + "] ");
 			return tag;
 		}
 		else
