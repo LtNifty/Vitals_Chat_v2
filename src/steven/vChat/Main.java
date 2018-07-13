@@ -190,7 +190,7 @@ public class Main extends JavaPlugin {
 	String supergroupTag(Player player) {
 		String tag = "";
 		if (player.hasPermission("owner.v")) {
-			tag = (ChatColor.YELLOW + "[" + ChatColor.RED + unicize(":yinyang:") + ChatColor.YELLOW + "] ");
+			tag = (ChatColor.YELLOW + "[" + ChatColor.DARK_RED + unicize(":yinyang:") + ChatColor.YELLOW + "] ");
 			return tag;
 		}
 		else if (player.hasPermission("admin.v")) {
@@ -215,6 +215,10 @@ public class Main extends JavaPlugin {
 		}
 		else if (player.hasPermission("drangonstone.v")) {
 			tag = (ChatColor.YELLOW + "[" + ChatColor.DARK_PURPLE + unicize(":0f3a:") + ChatColor.YELLOW + "] ");
+			return tag;
+		}
+		else if (player.hasPermission("veteran.v")) {
+			tag = (ChatColor.YELLOW + "[" + ChatColor.BLUE + unicize(":272f:") + ChatColor.YELLOW + "] ");
 			return tag;
 		}
 		else
