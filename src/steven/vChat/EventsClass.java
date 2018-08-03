@@ -93,7 +93,7 @@ public class EventsClass implements Listener {
 	String supergroupTag(Player player) {
 		String tag = "";
 		if (player.hasPermission("owner.v")) {
-			tag = (ChatColor.DARK_GRAY + "[" + ChatColor.RED + unicize(":yinyang:") + ChatColor.DARK_GRAY + "] ");
+			tag = (ChatColor.DARK_GRAY + "[" + ChatColor.DARK_RED + unicize(":yinyang:") + ChatColor.DARK_GRAY + "] ");
 			return tag;
 		}
 		else if (player.hasPermission("admin.v")) {
