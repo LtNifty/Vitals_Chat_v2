@@ -113,7 +113,7 @@ public class Main extends JavaPlugin {
 			Score timeT = o.getScore(ChatColor.GOLD + "" + ChatColor.BOLD + "World Time:");
 			timeT.setScore(9);
 			
-			Score time = o.getScore(ChatColor.YELLOW + time(player.getWorld().toString()));
+			Score time = o.getScore(ChatColor.YELLOW + time(player.getWorld().getName().toString()));
 			time.setScore(8);
 			
 			player.setScoreboard(b);
